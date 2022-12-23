@@ -59,7 +59,7 @@ inner join sales.orders AS so
 on soi.order_id = so.order_id
 inner join sales.customers AS sc
 on so.customer_id = sc.customer_id
-where sc.customer_id
+where sc.customer_id = 57 --same result as before but less code
 --where first_name like 'Pamala'
 --AND last_name like 'Henry'
 --AND city like 'Bronx'
